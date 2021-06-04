@@ -1,5 +1,6 @@
 package main;
 
-public class UseCompute {
-
+public class UseCompute implements Compute{
+	
+	
 }

@@ -1,0 +1,18 @@
+Day 3:
+-----------------------
+Collections:
+1. Write a Java program of swap two elements in an array list which holds the strings.
+2.  Write a program to clone an array list to another array list using clone() of arraylist.
+3. Iterate a linked list in reverse order.
+4. Write a Java program to insert the specified element at the end of a linked list using offerLast().
+5. Search an element in a array list
+6. Write a program to join two array lists
+Comprable and Compartor:
+7. Write a program to compare the ranking of Player where Player class has ranking, name and age as attributes using comparabel interface.
+8. Write a program to compare the  Player based on age and ranking using Comparator interface.
+FileIO:
+9. Wrie a program to Open a text file so that you can read the file one line at a time.
+ Read each line as a String and print the total number of characters.
+
+Lambda:
+10. Write a lambda expression to generate the square of a number.

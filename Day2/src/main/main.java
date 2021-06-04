@@ -1,4 +1,5 @@
 package main;
+import java.time.format.TextStyle;
 import java.util.*;
 //Day 2 - Assignment
 //------------------------------------------------------
@@ -134,11 +135,27 @@ public class main {
 							"(4) Design a main class Test, call the method useCom in UseCompute to complete addition, subtraction, multiplication and division operations. \n"
 					);
 					
-					Compute addition = (n,m) ->{
-						return n+m;
-					};
-					
+					print("Please insert a number: ");
+					int a = input.nextInt();
+					print("Please insert another number: ");
+					int b = input.nextInt();
+					println("what do you want to do?");
+					println("1. Addition");
+					println("2. Subtraction");
+					println("3. Multiplication");
+					println("4. Division");
+					print("Your Answer: ");
+					int choice = input.nextInt();
+					UseCompute test = new UseCompute();
+					switch(choice) {
+						case 1: println(test.addition(a, b)+""); break;
+						case 2: println(test.subtraction(a, b)+""); break;
+						case 3: println(test.multiplication(a, b)+""); break;
+						case 4: println(test.division(a, b)+""); break;
+						default: println("Invalid Input");
+					}
 					break;
+					
 				}
 				case 14:{
 					println("14. Write Java programs as follows: ");
@@ -268,9 +285,6 @@ public class main {
 		return input.nextLine();
 	}
 	
-	public static Map<char,int> createAtoZMap (){
-		
-	}
 	
 	public static void println(String a ) {
 		System.out.println(a);
